@@ -27,3 +27,14 @@
   font-size: 12px;
   font-weight: 400;
 }
+
+.individual-patient {
+  font-size: 15px;
+  text-transform: capitalize;
+  width: 100%;
+}
+
+.individual-patient span {
+  float: right;
+  text-align: center;
+}

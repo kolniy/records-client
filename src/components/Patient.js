@@ -25,11 +25,18 @@ const Patient = ({ isLoading, records }) => {
         </button>
       </h2>
     </div>
-    <div key={record.UserName} id={`${record.UserName}`} className="collapse" aria-labelledby={`${record.MacAddress}`} data-parent="#recordsAccordion">
+    <div id={`${record.UserName}`} className="collapse" aria-labelledby={`${record.MacAddress}`} data-parent="#recordsAccordion">
       <div className="card-body">
-        {
-            record.FirstName
-        }
+            <p className="individual-patient">Gender: <span>{record.Gender}</span></p>
+            <p className="individual-patient">Email: <span>{record.Email}</span></p>
+            <p className="individual-patient">Domain Name: <span>{record.DomainName}</span></p>
+            <p className="individual-patient">Phone Number: <span>{record.PhoneNumber}</span></p>
+            <p className="individual-patient">Mac Address: <span>{record.MacAddress}</span></p>
+            <p className="individual-patient">URL: <span>{record.URL}</span></p>
+            <p className="individual-patient">Username: <span>{record.UserName}</span></p>
+            <p className="individual-patient">Last Seen: <span>{record.LastLogin}</span></p>
+            <p className="individual-patient">Payment Method: <span>{record.PaymentMethod}</span></p>
+            <p className="individual-patient">Location: <span> Latitude:{" "}{`"${record.Latitude}"`} Longitude:{" "}{`"${record.Longitude}"`}</span></p>
       </div>
     </div>
   </div>
