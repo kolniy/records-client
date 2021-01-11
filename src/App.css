@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.filters-section {
+  width: 100%;
+  background-color: #F8F9FA;
+  padding: 20px 0;
+}
+
+.dropdown-section h5 {
+  text-transform: uppercase;
+  font-size: 13px !important;
+  color: rgb(34, 31, 31);
+}
+
+.searchname-section h5 {
+  text-transform: uppercase;
+  font-size: 13px !important;
+  color: rgb(34, 31, 31);
+}
+
+.patient-heading {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+}
